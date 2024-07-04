@@ -1,0 +1,31 @@
+body{
+ padding: 10px;
+}
+
+.container{
+    padding: 50px;
+}
+
+.btn{
+    padding: 25px;
+    background-color: #131B23;
+    color: white;
+    font-family: sans-serif;
+    border: 5px white;
+    border-radius: 5px;
+}
+.btn:hover{
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    border: #131B23;
+    border: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}

@@ -3,12 +3,16 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('black').addEventListener('click', function() {
-        changeBackgroundColor('#212121');
+    document.getElementById('blue').addEventListener('click', function() {
+        changeBackgroundColor('lightblue');
     });
 
-    document.getElementById('white').addEventListener('click', function() {
-        changeBackgroundColor('white');
+    document.getElementById('green').addEventListener('click', function() {
+        changeBackgroundColor('lightgreen');
+    });
+
+    document.getElementById('coral').addEventListener('click', function() {
+        changeBackgroundColor('lightcoral');
     });
 
     function changeBackgroundColor(color) {
